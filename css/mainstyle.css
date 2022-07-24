@@ -1,0 +1,248 @@
+
+
+/*General */
+
+body
+{
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    padding: 0% 3%;
+    font-size: 14px;
+}
+
+h1
+{
+    font-weight: bolder;
+}
+
+/*Header : Logo+nav*/
+
+header
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#logo
+{
+    margin-top: 40px;
+    width: 5%;
+}
+
+#logo img
+{
+width: 100%;
+}
+
+/* Nav */
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li
+{
+padding: 35px 35px 0px 35px;
+}
+
+nav li:hover
+{
+    border-top: 3px solid #0065FC ;
+}
+
+nav a
+{
+    text-decoration: none;
+    padding: 0px 3%;
+    color:black
+}
+
+nav a:hover
+{
+    color: #0065FC;
+}
+
+/*Top section : title + searchform + filters + info*/
+
+
+#top
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#title
+{
+    line-height: 16px;
+    margin-bottom: 25px;
+}
+
+/*Searchform*/
+
+#searchform
+{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 30%;
+    height: 45px;
+    border: 1px solid #F2F2F2;
+    
+}
+
+/*icone*/
+
+#ico
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    width: 10%;
+    height: 45px;
+    
+}
+.fa-solid
+{
+    font-size:large;    
+}
+
+
+/*input*/
+
+input
+{
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+/*button*/
+
+button
+{
+    width: 30%;
+    border: none;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+
+/*Filters*/
+
+#filters
+{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#filters ul
+{
+    display: flex;
+    list-style-type: none;
+}
+
+#filters li
+{
+    margin: 2%;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    justify-content: flex-start;
+}
+#filters a
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    width: auto;
+    border: 3px solid #F2F2F2;
+    border-radius: 35px;
+    border-left: none;
+}
+
+#filters a:hover
+{
+color: #0065FC;
+box-shadow: 2px 2px 2px #0065FC;
+transition: all .3s ease-in-out;
+transform: scale(1.1);
+}
+
+#filters i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    box-sizing: border-box;
+    overflow: visible;
+    width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+
+#filters h3
+{
+    font-weight: bolder;
+    
+}
+
+.filtertext
+{
+    
+    font-weight: bolder;
+    margin: 0px 10px 0px 10px;
+    padding-right: 20px;
+}
+#filtertitle
+{
+    display: flex;
+    margin-right: 2%;
+
+}
+
+/* Info*/
+
+#info
+{
+    display: flex;
+    align-items: baseline;
+}
+#info i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #0065FC;
+    border-radius: 100%;
+    background-color: none;
+    color: #0065FC;
+    font-size: 12px;
+}
+
+#info p
+{
+    margin-left: 1%;
+}
