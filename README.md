@@ -1,5 +1,4 @@
-# P2
-Projet 2 parcours webdev OC
+Parcours développeur web.
 Projet proposé par Openclassrooms
 Mon code est celui d'un étudiant.
 Si tu es aussi étudiant, sois prudent à la lecture. 
