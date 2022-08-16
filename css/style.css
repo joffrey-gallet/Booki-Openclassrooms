@@ -69,7 +69,6 @@ padding: 20px;
 nav li:hover
 {
     border-top-color:#0065FC ;
-
 }
 
 nav a
@@ -518,35 +517,26 @@ object-fit: cover;
     border-bottom-right-radius: 25px;
 }
 
-#acti1
+#acti100
 {
     height: 100%;
 }
 
-#acti2
+#acti60
 {
     height: 58%;
 }
 
-#acti3
+#acti40
 {
     height: 38%;
 }
 
-#acti4
-{
-    height: 100%;
-}
-
-#acti5
+#acti50
 {
     height: 48%;
 }
 
-#acti6
-{
-    height: 48%;
-}
 
 #acticards a:hover
 {
@@ -630,13 +620,12 @@ Version tablette
     nav, ul
     {
         width: 100%;
-        padding: 20px 0px;
     }
 
     nav li
      {
         width: 50%;
-        font-size: 24px;
+        font-size: 16px;
         padding: 0px;
         margin: 0px;
         border-top: none;
@@ -673,44 +662,50 @@ Version tablette
     
      #title
      {
+        width: 90%;
         line-height: 2em;
+     }
+
+     #title h1
+     {
+        font-size: 22px;
+     }
+
+     #title h2
+     {
+        font-size: 14px;
      }
 
      #searchform
      {
         width: 100%;
-        height: 80px;
-        border-radius: 25px;
-        margin: 20px 0px;
+        border-radius: 15px;
      }
 
      #ico
      {
-        width: 20%;
-        height: 80px;
-        border-radius: 25px 0px 0px 25px;
+        width: 15%;
      }
 
      #ico i 
      {
-        font-size: xx-large;
+        font-size: medium;
      }
 
      input 
      {
-        width: 60%;
+        width: 70%;
      }
 
      button 
      {
-        width: 20%;
-        border-radius: 25px;
+        width: 15%;
      }
 
      button .button-ico
      {
         display: flex;
-        font-size: 24px;
+        font-size: 18px;
         justify-content: center;
         align-content: center;
         width: 100%;
@@ -728,10 +723,14 @@ Version tablette
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        margin: 20px 0px;
         gap: 20px;
     }
 
+    .filtertext
+    {
+        font-size: 16px;
+    }
+    
     #filters ul 
     {
         width: 100%;
@@ -740,48 +739,23 @@ Version tablette
 
     #filters i 
     {
-        width: 80px;
-        height: 80px;
-        margin: -2px;
-        font-size: 22px;
-    }
-
-    .filtertext
-    {
-        margin: 15px 20px;
-    }
-
-    #filtertitle
-    {
         font-size: 18px;
     }
 
-    #info i 
+    #info p
     {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 49px;
-        height: 49px;
-        border: 2px solid #F2F2F2;
-        font-size: 22px;
+        font-size: 14px;
     }
 
-    #info p 
-    {
-        font-size: 22px;
-    }
 
 
     /* Hebergement */
-
 
 
     #hebergement-wrapper
     {
         display: flex;
         flex-direction: column-reverse;
-        font-size: 18px;
     }
 
     aside 
@@ -790,51 +764,54 @@ Version tablette
         display: flex;
         border-radius: 0px;
         padding: 0px;
-        gap: 30px;
+        border: none; 
     }
 
     #populaires
     {
-        width: 90%;
         margin: auto;
-        padding: 20px 0px;
-    }
-
-    #populaires i 
-    {
-        font-size: 18px;
+        padding-top: 20px;
     }
 
     .famous-card
     {
         width: 90%;
         margin: auto;
-        gap: 20px;
         padding: 20px 0px;
+        gap: 20px;
+
     }
 
     .famous-card img 
     {
-        height: 250px;
+        height: 165px;
     }
 
     .famous-image
     {
         display: flex;
-        padding: 5px 40px 5px 5px;
+        padding: 5px 0px 5px 5px;
+    }
+
+    .famous-body
+    {
+        width: 60%;
+        padding: 0px 15px;
     }
 
     #hebergements
     {
         width: 90%;
-        padding: 20px 0px;
         margin: auto;
+        padding: 20px 0px;
+        border: none;
         background-color: white;
     }
 
     #hebergements h2 
     {
         width: 90%;
+        margin: auto;
     }
 
     .card 
@@ -847,6 +824,7 @@ Version tablette
 
     .card a 
     {
+        box-sizing: border-box;
         width: 100%;
         border: 2px solid #DEEBFF;
         filter: drop-shadow(4px 6px 8px grey);
@@ -854,23 +832,20 @@ Version tablette
 
     .card-image
     {
-        height: 230px;
+        height: 235px;
     }
 
     .card img
     {
-        height: 230px;
-    }
-
-    .card-title
-    {
-        font-size: 18px;
+        height: 235px;
     }
 
     #plus
     {
         width: 90%;
+        margin: auto;
     }
+
 
     #activites
     {
@@ -929,13 +904,12 @@ Version tablette
     nav, ul
     {
         width: 100%;
-        padding: 20px 0px;
     }
 
     nav li
      {
         width: 50%;
-        font-size: 24px;
+        font-size: 16px;
         padding: 0px;
         margin: 0px;
         border-top: none;
@@ -965,7 +939,7 @@ Version tablette
      {
         width: 90%;
         margin: auto;
-        font-size: 22px;
+        font-size: 18px;
         display: flex;
         justify-content: space-around;
      }
@@ -976,41 +950,46 @@ Version tablette
         line-height: 2em;
      }
 
+     #title h1
+     {
+        font-size: 22px;
+     }
+
+     #title h2
+     {
+        font-size: 14px;
+     }
+
      #searchform
      {
         width: 100%;
-        height: 100px;
-        border-radius: 25px;
-        margin: 20px 0px;
+        border-radius: 15px;
      }
 
      #ico
      {
-        width: 20%;
-        height: 100px;
-        border-radius: 25px 0px 0px 25px;
+        width: 15%;
      }
 
      #ico i 
      {
-        font-size: xx-large;
+        font-size: medium;
      }
 
      input 
      {
-        width: 60%;
+        width: 70%;
      }
 
      button 
      {
-        width: 20%;
-        border-radius: 25px;
+        width: 15%;
      }
 
      button .button-ico
      {
         display: flex;
-        font-size: 24px;
+        font-size: 18px;
         justify-content: center;
         align-content: center;
         width: 100%;
@@ -1028,8 +1007,12 @@ Version tablette
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        margin: 20px 0px;
         gap: 20px;
+    }
+
+    .filtertext
+    {
+        font-size: 16px;
     }
 
     #filters ul 
@@ -1040,47 +1023,23 @@ Version tablette
 
     #filters i 
     {
-        width: 80px;
-        height: 80px;
-        margin: -2px;
+        font-size: 18px;
     }
 
-    .filtertext
+    #info p
     {
-        margin: 15px 20px;
+        font-size: 14px;
     }
 
-    #filtertitle
-    {
-        font-size: 22px;
-    }
-
-    #info i 
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 49px;
-        height: 49px;
-        border: 2px solid #F2F2F2;
-        font-size: 24px;
-    }
-
-    #info p 
-    {
-        font-size: 32px;
-    }
 
 
     /* Hebergement */
-
 
 
     #hebergement-wrapper
     {
         display: flex;
         flex-direction: column-reverse;
-        font-size: 24px;
     }
 
     aside 
@@ -1088,21 +1047,14 @@ Version tablette
         width: 100%;
         display: flex;
         border-radius: 0px;
-        padding: 20px 0px;
-        border: none;
-        gap: 30px;
+        padding: 0px;
+        border: none; 
     }
 
     #populaires
     {
-        width: 90%;
         margin: auto;
-        padding: 20px 0px;
-    }
-
-    #populaires i 
-    {
-        font-size: 24px;
+        padding-top: 20px;
     }
 
     .famous-card
@@ -1116,13 +1068,19 @@ Version tablette
 
     .famous-card img 
     {
-        height: 250px;
+        height: 125px;
     }
 
     .famous-image
     {
         display: flex;
-        padding: 5px 40px 5px 5px;
+        padding: 5px 0px 5px 5px;
+    }
+
+    .famous-body
+    {
+        width: 60%;
+        padding: 0px 15px;
     }
 
     #hebergements
@@ -1158,17 +1116,12 @@ Version tablette
 
     .card-image
     {
-        height: 230px;
+        height: 125px;
     }
 
     .card img
     {
-        height: 230px;
-    }
-
-    .card-title
-    {
-        font-size: 24px;
+        height: 125px;
     }
 
     #plus
@@ -1182,7 +1135,7 @@ Version tablette
     #activites
     {
         width: 90%;
-        font-size: 24px;
+        font-size: 20px;
         margin: auto;
     }
 
@@ -1204,20 +1157,17 @@ Version tablette
 
     #acticards img 
     {
-        height: 250px;
+        height: 160px;
     }
 
     .card-acti-title
     {
-        height: 90px;
-        margin-top: -90px;
+        font-size: 16px;
+        height: 50px;
+        margin-top: -50px;
     }
 
-   
-    footer
-    {
-        font-size: 24px;
-    }
+    /* Footer */
 
     #footer-wrapper
     {
@@ -1225,8 +1175,8 @@ Version tablette
         flex-direction: column;
         width: 90%;
         margin: auto;
-        padding-top: 40px;
-        gap: 40px;
+        padding-top: 20px;
+        gap: 20px;
         
     }
 
