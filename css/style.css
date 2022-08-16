@@ -517,7 +517,7 @@ object-fit: cover;
     border-bottom-right-radius: 25px;
 }
 
-#acti100
+.acti100
 {
     height: 100%;
 }
@@ -532,7 +532,7 @@ object-fit: cover;
     height: 38%;
 }
 
-#acti50
+.acti50
 {
     height: 48%;
 }
